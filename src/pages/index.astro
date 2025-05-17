@@ -1,0 +1,84 @@
+---
+import "../public/styles/style.css";
+--- 
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Hoja de vida - Celeste Courtade</title>
+	<link rel="stylesheet" href="public/style.css" />
+  </head>
+  
+<!-- HEADER -->
+<header class="header-info">
+	<h1 class="header-info__title">Mi hoja de vida - Celeste Courtade</h1>
+  </header>
+  
+  
+  <!---SOBRE MI -->
+  <article class="about">
+	<h2 class="about__title">SOBRE MI</h2>
+	<p class="about__description">Hola! Me llamo <span class="name">Celeste Courtade</span>, soy estudiante de <span class="name">informática y programación</span>.</p>
+	<address class="header-info__contact">
+		<p class="header-info__email">📧 celestecourtade1@gmail.com</p>
+		<p class="header-info__phone">📞 1135901121</p>
+	  </address>
+  </article>
+  
+  <section class="skills">
+	<h3 class="skills__title">MIS CONOCIMIENTOS EN IT </h3>
+	<ul class="skills__list">
+	  <li class="skills__item">HTML, CSS🌐 </li>
+	  <li class="skills__item">JavaScript🖥️ </li>
+	  <li class="skills__item">Diseño UX/UI 🎨</li>
+	</ul>
+  </section>
+  
+  <section class="languages">
+	<h3 class="languages__title">Idiomas</h3>
+	<ul class="languages__list">
+	  <li class="languages__item">Español: Nativo🌍 </li>
+	  <li class="languages__item">Inglés: Básico🌍 </li>
+	</ul>
+  </section>
+  
+  <section class="education">
+	<h3 class="education__title">Educación</h3>
+	<ul class="education__list">
+	  <li class="education__item">Diseño UX/UI 🎨- <span class="number">2024</span></li>
+	  <p class="education__p">Agencia de habilidades - Codo a Codo</p>
+	  <li class="education__item">Estudiante de Informática🖥️   - <span class="number">2025</span></li>
+	  <p class="education__p">Universidad Nacional del Oeste - Primer año</p>
+	  <li class="education__item">Estudiante de Programación🌐  - <span class="number">2025</span> </li>
+      <p class="education__p"> Fundación integrar Tec</p>
+	</ul>	  
+  </section>
+  
+  <section class="work-experience">
+	<h3 class="work-experience__title">Experiencia laboral</h3>
+	<p class="work-experience__description">Aún no poseo experiencia laboral en el mundo IT, solo proyectos independientes.</p>
+  </section>
+  
+<!-- FORMULARIO -->
+<section class="formulario">
+	<h3 class="formulario__titulo">Formulario de Contacto</h3>
+	<form action="#" method="post" class="formulario__form">
+  
+	  <label for="nombre" class="formulario__label">Nombre:</label><br />
+	  <input type="text" id="nombre" name="nombre" required class="formulario__input" /><br /><br />
+  
+	  <label for="asunto" class="formulario__label">Asunto:</label><br />
+	  <input type="text" id="asunto" name="asunto" required class="formulario__input" /><br /><br />
+  
+	  <label for="mensaje" class="formulario__label">Mensaje:</label><br />
+	  <textarea id="mensaje" name="mensaje" rows="4" required class="formulario__textarea"></textarea><br /><br />
+  
+	  <button type="submit" class="formulario__boton">Enviar</button>
+	</form>
+  </section>
+  
+  
+  <footer class="footer">
+	<p>Celeste Courtade © 2025 - Todos los derechos reservados</p>
+  </footer>
+  
